@@ -7,20 +7,24 @@ body {
 }
 
 section {
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   color: #121212;
   padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+section h2 {
   font-family: 'Electrolize', sans-serif;
-  font-size: 32px;
+  font-size: 36px;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
-p {
+section p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
 
 .cta {
@@ -28,9 +32,13 @@ p {
   background-color: #00BFFF;
   color: #FFFFFF;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border-radius: 5px;
   font-family: 'Electrolize', sans-serif;
   font-size: 18px;
-  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #0099CC;
 }
